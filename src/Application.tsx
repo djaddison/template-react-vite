@@ -1,5 +1,5 @@
-import "./Application.css"
+import css from "./Application.module.css"
 
 export function Application() {
-  return <div className="Application">Application</div>
+  return <div className={css.Application}>Application</div>
 }
