@@ -2,7 +2,7 @@
   "name": "template-react-vite",
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "typecheck": "tsc"
