@@ -1,6 +1,7 @@
 {
   "name": "template-react-vite",
   "version": "0.0.1",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "vite",
     "build": "vite build",
