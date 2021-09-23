@@ -1,0 +1,22 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-14",
+  "settings": {
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "material-icon-theme"
+  },
+  "extensions": [
+    "dracula-theme.theme-dracula",
+    "dbaeumer.vscode-eslint",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode"
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Port 3000",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "yarn install",
+  "remoteUser": "node"
+}
