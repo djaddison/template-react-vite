@@ -4,11 +4,11 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "vite",
+    "serve": "vite preview",
     "build": "vite build",
     "clean": "rm -rf dist",
     "realclean": "rm -rf dist node_modules yarn",
     "format-code": "prettier src/**/*.{ts,tsx,css,html} --write",
-    "serve": "vite preview",
     "check-type-checking": "tsc",
     "check-code-formatting": "prettier src/**/*.{ts,tsx,css,html} --check"
   },
