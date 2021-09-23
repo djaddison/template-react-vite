@@ -2,67 +2,68 @@
   "version": "2.0.0",
   "tasks": [
     {
-        "type": "npm",
-        "script": "install",
-        "group": "build",
-        "problemMatcher": [],
-        "label": "yarn: install",
-        "detail": "Install project dependencies from package.json"
+      "type": "npm",
+      "script": "install",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "yarn: install",
+      "detail": "Install project dependencies from package.json"
     },
     {
-        "type": "npm",
-        "script": "start",
-        "group": "build",
-        "problemMatcher": [],
-        "label": "yarn: start",
-        "detail": "Run interactive development server"
+      "type": "npm",
+      "script": "start",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "yarn: start",
+      "detail": "Run interactive development server",
+      "isBackground": true
     },
     {
-        "type": "npm",
-        "script": "build",
-        "group": "build",
-        "problemMatcher": [],
-        "label": "yarn: build",
-        "detail": "Build project into static assets. Output: ./dist"
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "yarn: build",
+      "detail": "Build project into static assets. Output: ./dist"
     },
     {
-        "type": "npm",
-        "script": "clean",
-        "group": "build",
-        "problemMatcher": [],
-        "label": "yarn: clean",
-        "detail": "Delete build output"
+      "type": "npm",
+      "script": "clean",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "yarn: clean",
+      "detail": "Delete build output"
     },
     {
-        "type": "npm",
-        "script": "realclean",
-        "group": "build",
-        "problemMatcher": [],
-        "label": "yarn: realclean",
-        "detail": "Delete build output, node_modules, offline mirror, and yarn cache"
+      "type": "npm",
+      "script": "realclean",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "yarn: realclean",
+      "detail": "Delete build output, node_modules, offline mirror, and yarn cache"
     },
     {
-        "type": "npm",
-        "script": "format-code",
-        "problemMatcher": [],
-        "label": "yarn: format-code",
-        "detail": "Run code formatter"
+      "type": "npm",
+      "script": "format-code",
+      "problemMatcher": [],
+      "label": "yarn: format-code",
+      "detail": "Run code formatter"
     },
     {
-        "type": "npm",
-        "script": "check-type-checking",
-        "group": "test",
-        "problemMatcher": [],
-        "label": "yarn: check-type-checking",
-        "detail": "Run type checker"
+      "type": "npm",
+      "script": "check-type-checking",
+      "group": "test",
+      "problemMatcher": [],
+      "label": "yarn: check-type-checking",
+      "detail": "Run type checker"
     },
     {
-        "type": "npm",
-        "script": "check-code-formatting",
-        "group": "test",
-        "problemMatcher": [],
-        "label": "yarn: check-code-formatting",
-        "detail": "Run code formatting checker"
+      "type": "npm",
+      "script": "check-code-formatting",
+      "group": "test",
+      "problemMatcher": [],
+      "label": "yarn: check-code-formatting",
+      "detail": "Run code formatting checker"
     }
-]
+  ]
 }
