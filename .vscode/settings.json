@@ -1,5 +1,5 @@
 {
   "npm.packageManager": "yarn",
   "eslint.packageManager": "yarn",
-  "typescript.tsc.autoDetect": "off"
+  "task.autoDetect": "off"
 }
