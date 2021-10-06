@@ -9,7 +9,7 @@
     "clean": "rm -rf dist",
     "realclean": "rm -rf dist node_modules yarn",
     "format-code": "prettier src/**/*.{ts,tsx,css,html} --write",
-    "check-type-checking": "tsc",
+    "check-type-checking": "tsc --noEmit",
     "check-code-formatting": "prettier src/**/*.{ts,tsx,css,html} --check"
   },
   "dependencies": {
