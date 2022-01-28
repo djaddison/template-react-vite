@@ -13,16 +13,16 @@
     "check-code-formatting": "prettier src/**/*.{ts,tsx,css,html} --check"
   },
   "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/node": "16.9.6",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@vitejs/plugin-react": "^1.0.0",
-    "prettier": "2.4.1",
-    "typescript": "^4.3.2",
-    "vite": "^2.5.4"
+    "@types/node": "17.0.13",
+    "@types/react": "17.0.38",
+    "@types/react-dom": "17.0.11",
+    "@vitejs/plugin-react": "1.1.4",
+    "prettier": "2.5.1",
+    "typescript": "4.5.5",
+    "vite": "2.7.13"
   }
 }
