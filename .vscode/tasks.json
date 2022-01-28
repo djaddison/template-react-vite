@@ -2,6 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "type": "shell",
+      "command": "yarn upgrade --latest",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "yarn: upgrade dependencies",
+      "detail": "Upgrade dependencies in package.json"
+    },
+    {
       "type": "npm",
       "script": "install",
       "group": "build",
